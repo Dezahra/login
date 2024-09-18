@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $dbname = "users";
-$username = "root";  // Ganti dengan username MySQL Anda
-$password = "";      // Ganti dengan password MySQL Anda
+$username = "root";  
+$password = "";      
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
